@@ -262,6 +262,7 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
         '--save',
         '--save-exact',
         '--loglevel',
+        '--no-bin-links',
         'error',
       ].concat(dependencies);
     }
